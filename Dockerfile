@@ -1,9 +1,8 @@
 # Dockerfile
 
-# Author       : KasRoudra
-# Github       : https://github.com/KasRoudra
-# Messenger    : https://m.me/KasRoudra
-# Email        : kasroudrakrd@gmail.com
+# Author       : Raja
+# Github       : https://github.com/Chowdary1997
+# Email        : rajendra.daggubati1997@gmail.com
 # Date         : 25-08-2021
 # Main Language: Python
 
@@ -15,7 +14,7 @@ FROM debian:latest
 FROM python:3
 
 # Author info
-LABEL MAINTAINER="https://github.com/KasRoudra/PyPhisher"
+LABEL MAINTAINER="https://github.com/Chowdary1997/pypisher.git"
 
 # Working directory
 WORKDIR PyPhisher/
@@ -34,6 +33,6 @@ CMD ["python3", "pyphisher.py", "--noupdate"]
 
 ## Wanna run it own? Try following commnads:
 
-## "sudo docker build . -t kasroudra/pyphisher:latest", "sudo docker run --rm -it kasroudra/pyphisher:latest"
+## "sudo docker build . -t raja/pyphisher:latest", "sudo docker run --rm -it Raja/pyphisher:latest"
 
-## "sudo docker pull kasroudra/pyphisher", "sudo docker run --rm -it kasroudra/pyphisher"
+## "sudo docker pull raja/pyphisher", "sudo docker run --rm -it raja/pyphisher"
